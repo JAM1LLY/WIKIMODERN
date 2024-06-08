@@ -1,0 +1,101 @@
+/* Reset de estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos para o corpo do documento */
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(241, 239, 239);
+  color: rgb(25, 23, 23);
+}
+
+/* Estilos para o cabeçalho */
+.header {
+  background-color: rgb(204, 200, 170);
+  color: rgb(25, 23, 23);
+  padding: 20px;
+  text-align: center;
+}
+
+.header img {
+  max-width: 100%;
+}
+
+/* Estilos para a navegação */
+nav {
+  background-color: rgb(25, 23, 23);
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.nav-list li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nav-list li:last-child {
+  margin-right: 0;
+}
+
+.nav-list li a {
+  color: rgb(241, 239, 239);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.nav-list li a:hover {
+  background-color: rgb(204, 200, 170);
+  border-radius: 5px;
+}
+
+
+.main-content {
+  padding: 20px;
+}
+
+/* Estilos para as seções */
+.section,
+.destaque,
+.evento-dia,
+.curiosidades,
+.imagem-dia {
+  margin-bottom: 30px;
+  text-align: center; 
+}
+
+.section h1,
+.section h2,
+.destaque h2,
+.evento-dia h2,
+.curiosidades h2,
+.imagem-dia h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center; 
+}
+
+.section p,
+.destaque p,
+.evento-dia p,
+.curiosidades p,
+.imagem-dia p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Estilos para as imagens */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
