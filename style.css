@@ -1,3 +1,4 @@
+
 /* Reset de estilos */
 * {
   margin: 0;
@@ -99,3 +100,42 @@ img {
   margin: 0 auto;
 }
 
+
+@media(min-width: 900px){
+  .articles{
+    max-width: 80%;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+  }
+
+  .articles img {
+    width: 400px;
+    height: 300px;
+    border-radius: 4px;
+    margin-top: 12px;
+  }
+
+  .article{
+    max-width: 800px;
+    border: 1px solid #c0c0c0;
+    border-radius: 4px;
+    padding: 8px;
+  }
+
+  .article-1{
+    max-width: 80%;
+    margin: 0 auto;
+    border: 1px solid #c0c0c0;
+    border-radius: 4px;
+    padding: 8px;
+    margin-bottom: 24px;
+  }
+  
+  .article-1 img{
+    float: right;
+    margin: 15px;
+  }
+}
